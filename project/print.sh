@@ -6,7 +6,6 @@ echo hai shell
 
 ls
 pwd
-
 echo "bye"
 
 echo -e "hai\nhellow\nworld"
