@@ -8,10 +8,14 @@ ls
 pwd
 
 
-echo -e "\e[31mwarning!! this is an error"
+
 
 echo "bye"
 
-echo -e "hai\n\hellow\wellcome"
+echo -e "hai\nhellow\nworld"
 
-echo -e "hellow\t\t\hai"
+echo -e "hellow\t\thai"
+
+echo -e "\e[31mhai"
+echo -e "\e[32mhai"
+echo -e "\e[33mhai"
