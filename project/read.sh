@@ -1,5 +1,5 @@
 #!bin/bash
-
+#!/bin/bash
 name =ganesh
 echo name =$name
 
