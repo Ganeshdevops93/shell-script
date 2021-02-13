@@ -1,18 +1,54 @@
-#!bin/bash
+#!/bin/bash
 
-name =ganesh
+# Variable : If we assign a name to a set of data is called as Variable
 
-age =20
+# Declare a variable in bash shell
+NAME=DEVOPS
 
-echo name =$name
-ahe =$age
+# Usually other scripting languages will have data types, But shell by default will not have any data types.. All the data is a string for shell.
 
-cnt =2
+# Variable names can have character a-z, A-Z, 0-9, _
 
-count =$cnt
+COUNT=2
 
-message ="name is $name  and the age is $age "
+# Access the variable  $VAR_NAME / ${VAR_NAME}
 
-add = $((1+2))
+echo NAME=$NAME
 
-echo a =$a
+
+FILE1=sample.txt
+FILE2=new.txt
+
+#cp $FILE1 $FILE2
+
+# If your data is having spaces then use quotes
+NAME="Welcome to DevOps"
+
+echo "Count of Apples = ${COUNT}no"
+
+
+# ----------------------
+
+# Sometimes we need variable data dynamically
+
+## Ex:
+
+echo "Welcome, Good Morning, Today date is 2021-02-08"
+
+# Above statement makes it wrong because of static date
+
+# Command Substitution
+# VAR=$(COMMAND)
+
+DATE=$(date +%F)
+echo "Welcome, Good Morning, Today date is $DATE"
+
+## Arithmetic Substitution
+
+ADD=$((2+3+4+5+6))
+CALC=$((2+3-4*5+6*2/7))
+
+echo ADD = $ADD
+
+echo "Value of a = $A"
+© 2021 GitHub, Inc.
