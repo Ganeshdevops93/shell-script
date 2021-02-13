@@ -12,3 +12,6 @@ echo -e "\n Your Name = $name\n Your Age = $age"
 
  read -p 'enter ur id ' count
 
+ echo id
+
+
